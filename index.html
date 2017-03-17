@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FCC Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="weather-main">
+                <p class="location"><span id="city">Waiting for location...</span><span id="state"></span></p>
+                <p class="current-temp"><span id="tempF"></span><span id="tempC" class="hide-me"></span> <span class="units"><span id="f"></span><span id="slash"></span><span id="c" class="inactive-units"></span></span></p>
+                <div id="weather-img"></div>
+                <p class="weather-desc"></p>
+                <p class="details"><span id="windDirection"></span><span id="windSpeedM"></span><span id="windSpeedK" class="hide-me"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="humidity"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="pressureIn"></span><span id="pressureMb" class="hide-me"></span></p>
+                <p class="details"><span id="precipIn"></span><span id="precipCm" class="hide-me"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="visM"></span><span id="visK" class="hide-me"></span></p>
+                <p class="updated"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
